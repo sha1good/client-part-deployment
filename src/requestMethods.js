@@ -1,7 +1,9 @@
 import axios from "axios";
 
 
-const  BASEURL = "http://localhost:5000/api";
+//const  BASEURL = "http://localhost:5000/api";
+
+const BASEURL = "https://shopping-app-backend.onrender.com/api";
 
 // const TOKEN =
 //   JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser
