@@ -19,8 +19,8 @@ const Products = ({ category, filters, sort }) => {
       try {
         const response = await axios.get(
           category
-            ? `http://localhost:5000/api/products?category=${category}`
-            : "http://localhost:5000/api/products"
+            ? `https://shopping-app-backend.onrender.com/api/products?category=${category}`
+            : "https://shopping-app-backend.onrender.com/api/products"
         );
         setProducts(response.data);
       } catch (error) {
